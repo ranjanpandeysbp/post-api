@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 public class CreatePostInput {
 
@@ -12,9 +13,9 @@ public class CreatePostInput {
     String title;
     String body;
 
-    public CreatePostInput(Long userId, String title, String body){
+    /*public CreatePostInput(Long userId, String title, String body){
         this.userId = userId;
         this.title = title;
         this.body = body;
-    }
+    }*/
 }
