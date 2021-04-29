@@ -1,0 +1,2 @@
+https://codingnconcepts.com/spring-boot/configure-feign-rest-client/
+https://github.com/kptfh/feign-reactive
